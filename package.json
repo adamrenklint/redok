@@ -1,0 +1,29 @@
+{
+  "name": "redok",
+  "version": "0.0.1",
+  "description": "Readme and documentation generator",
+  "main": "lib/redok.js",
+  "bin": {
+    "redok": "bin/redok"
+  },
+  "scripts": {
+    "docs": "node bin/redok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamrenklint/redok.git"
+  },
+  "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamrenklint/redok/issues"
+  },
+  "homepage": "https://github.com/adamrenklint/redok",
+  "dependencies": {
+    "gaze": "^0.5.1",
+    "git-repo-info": "^1.1.1",
+    "handlebars": "^3.0.3",
+    "minimist": "^1.1.1"
+  }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var redok = require('../lib/redok');
+var minimist = require('minimist');
+var args = minimist(process.argv.slice(2));
+
+redok(args);
