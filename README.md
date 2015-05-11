@@ -11,7 +11,7 @@ Readme and documentation generator
  [![npm dependencies](https://img.shields.io/david/adamrenklint/redok.svg?style=flat-square)](https://david-dm.org/adamrenklint/redok)
 
 
-[redok](https://www.npmjs.com/package/redok) is a tool for generating README and repo documentation using Handlebars and Markdown. It has a bunch of helpers and partials for the most common tasks.
+[redok](https://www.npmjs.com/package/redok) is a tool for generating README and repo documentation using Handlebars and Markdown, and aims to speed up the most common tasks.
 
 ## Installation
 

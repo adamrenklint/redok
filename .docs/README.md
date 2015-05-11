@@ -5,7 +5,7 @@
 
 {{>badges}}
 
-[{{package.name}}]({{npm.url}}) is a tool for generating README and repo documentation using Handlebars and Markdown. It has a bunch of helpers and partials for the most common tasks.
+[{{package.name}}]({{npm.url}}) is a tool for generating README and repo documentation using Handlebars and Markdown, and aims to speed up the most common tasks.
 
 ## Installation
 

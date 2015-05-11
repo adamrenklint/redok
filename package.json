@@ -7,7 +7,9 @@
     "redok": "bin/redok"
   },
   "scripts": {
-    "docs": "node bin/redok"
+    "docs": "node bin/redok",
+    "postpublish": "npm run tag",
+    "tag": "git tag 'v'$npm_package_version && git push --tags"
   },
   "repository": {
     "type": "git",
