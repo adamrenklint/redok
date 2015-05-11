@@ -12,22 +12,43 @@ Readme and documentation generator
  [![David devDependencies](https://img.shields.io/david/dev/adamrenklint/redok.svg?style=flat-square)](https://david-dm.org/adamrenklint/redok#info=devDependencies)
 
 
-![](https://img.shields.io/badge/FOO-bar-blue.svg?style=flat-square)
-
-## Summary - what is it?
+[redok](https://www.npmjs.com/package/redok) is a tool for generating README and repo documentation using Handlebars and Markdown. It has a bunch of helpers and partials for the most common tasks.
 
 ## Installation
 
+```sh
+$ npm install -g redok
+```
+
 ## Usage
 
-redok init
+Generate output files for all templates in the folder ```.docs```. For example, ```.docs/README.md``` would become your project's main readme file.
 
-redok
+```
+$ redok
+```
+
+If you readme is growing, it's smart to split the template up into smaller chunks. All ```.hbs``` files in ```.docs/partials``` are available as Handlebars partials:
+
+```js
+{{>foo}}
+```
 
 ### Options
 
---dir
---watch
+It is possible to pass options to the command line tool.
+
+#### Load templates and partials from ```.alternate/```
+
+```sh
+$ redok --dir .alternate
+```
+
+#### Watch and regenerate on change
+
+```sh
+$ redok --watch
+```
 
 ## Helpers
 
@@ -36,4 +57,4 @@ redok
 
 ## License
 
-## Credits
+MIT
