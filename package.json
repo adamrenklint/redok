@@ -16,7 +16,6 @@
     "url": "https://github.com/adamrenklint/redok.git"
   },
   "author": "Adam Renklint <adam@renklint.com> (http://adamrenklint.com)",
-  "private": true,
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamrenklint/redok/issues"
