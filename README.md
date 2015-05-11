@@ -45,7 +45,7 @@ $ redok --watch
 
 ### Partials
 
-If you readme is growing, it's smart to split the template up into smaller chunks. All ```.hbs``` files in ```.docs/partials``` are available as Handlebars partials:
+If your readme is growing, it's smart to split the template up into smaller chunks. All ```.hbs``` files in ```.docs/partials``` are available as Handlebars partials:
 
 ```js
 {{>foo}}
