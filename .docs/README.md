@@ -45,7 +45,7 @@ If you readme is growing, it's smart to split the template up into smaller chunk
 &#123;&#123;>foo&#125;&#125;
 ```
 
-### Badges
+#### Badges
 
 {{package.name}} comes with a few built-in partials for generating badges.
 
@@ -64,4 +64,4 @@ If you readme is growing, it's smart to split the template up into smaller chunk
 
 ## License
 
-MIT
+[MIT]({{github.url}}/blob/master/LICENSE.md) © 2015 [Adam Renklint](http://adamrenklint.com)

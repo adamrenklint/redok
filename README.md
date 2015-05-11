@@ -51,7 +51,7 @@ If you readme is growing, it's smart to split the template up into smaller chunk
 {{>foo}}
 ```
 
-### Badges
+#### Badges
 
 redok comes with a few built-in partials for generating badges.
 
@@ -70,4 +70,4 @@ redok comes with a few built-in partials for generating badges.
 
 ## License
 
-MIT
+[MIT](https://github.com/adamrenklint/redok/blob/master/LICENSE.md) © 2015 [Adam Renklint](http://adamrenklint.com)
