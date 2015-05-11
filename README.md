@@ -66,8 +66,7 @@ redok comes with a few built-in partials for generating badges.
 |Github forks|```{{>badges/github-forks}}```|[![GitHub forks](https://img.shields.io/github/forks/adamrenklint/redok.svg?style=flat-square)](https://github.com/adamrenklint/redok/network)|
 |Travis CI status|```{{>badges/travis}}```|[![Travis CI status](https://img.shields.io/travis/adamrenklint/redok.svg?style=flat-square)](https://travis-ci.org/adamrenklint/redok)|
 |CodeClimate score|```{{>badges/codeclimate-score}}```|[![Code Climate score](https://img.shields.io/codeclimate/github/adamrenklint/redok.svg?style=flat-square)](https://codeclimate.com/github/adamrenklint/redok)|
-|CodeClimate coverage|```{{>badges/codeclimate-coverage}}```|[![Code Climate coverage](https://img.shields.io/codeclimate/coverage/github/adamrenklint/redok.svg?style=flat-square)](https://codeclimate.com/github/adamrenklint/redok)
-|
+|CodeClimate coverage|```{{>badges/codeclimate-coverage}}```|[![Code Climate coverage](https://img.shields.io/codeclimate/coverage/github/adamrenklint/redok.svg?style=flat-square)](https://codeclimate.com/github/adamrenklint/redok)|
 
 ## License
 
