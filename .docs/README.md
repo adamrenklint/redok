@@ -42,7 +42,7 @@ $ redok --watch
 If your readme is growing, it's smart to split the template up into smaller chunks. All ```.hbs``` files in ```.docs/partials``` are available as Handlebars partials:
 
 ```js
-&#123;&#123;>foo&#125;&#125;
+\{{>foo}}
 ```
 
 #### Badges
@@ -51,16 +51,16 @@ If your readme is growing, it's smart to split the template up into smaller chun
 
 |Description|Code|Example|
 |---|---|---|
-|Gitter chat|```&#123;&#123;>badges/gitter&#125;&#125;```|{{>badges/gitter}}|
-|npm version|```&#123;&#123;>badges/npm-version&#125;&#125;```|{{>badges/npm-version}}|
-|npm downloads|```&#123;&#123;>badges/npm-downloads&#125;&#125;```|{{>badges/npm-downloads}}|
-|npm dependencies|```&#123;&#123;>badges/npm-dependencies&#125;&#125;```|{{>badges/npm-dependencies}}|
-|npm devDependencies|```&#123;&#123;>badges/npm-devDependencies&#125;&#125;```|{{>badges/npm-devDependencies}}|
-|Github stars|```&#123;&#123;>badges/github-stars&#125;&#125;```|{{>badges/github-stars}}|
-|Github forks|```&#123;&#123;>badges/github-forks&#125;&#125;```|{{>badges/github-forks}}|
-|Travis CI status|```&#123;&#123;>badges/travis&#125;&#125;```|{{>badges/travis}}|
-|CodeClimate score|```&#123;&#123;>badges/codeclimate-score&#125;&#125;```|{{>badges/codeclimate-score}}|
-|CodeClimate coverage|```&#123;&#123;>badges/codeclimate-coverage&#125;&#125;```|{{>badges/codeclimate-coverage}}|
+|Gitter chat|```\{{>badges/gitter}};```|{{>badges/gitter}}|
+|npm version|```\{{>badges/npm-version}}```|{{>badges/npm-version}}|
+|npm downloads|```\{{>badges/npm-downloads}}```|{{>badges/npm-downloads}}|
+|npm dependencies|```\{{>badges/npm-dependencies}}```|{{>badges/npm-dependencies}}|
+|npm devDependencies|```\{{>badges/npm-devDependencies}}```|{{>badges/npm-devDependencies}}|
+|Github stars|```\{{>badges/github-stars}}```|{{>badges/github-stars}}|
+|Github forks|```\{{>badges/github-forks}}```|{{>badges/github-forks}}|
+|Travis CI status|```\{{>badges/travis}}```|{{>badges/travis}}|
+|CodeClimate score|```\{{>badges/codeclimate-score}}```|{{>badges/codeclimate-score}}|
+|CodeClimate coverage|```\{{>badges/codeclimate-coverage}}```|{{>badges/codeclimate-coverage}}|
 
 ## License
 

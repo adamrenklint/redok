@@ -57,7 +57,7 @@ redok comes with a few built-in partials for generating badges.
 
 |Description|Code|Example|
 |---|---|---|
-|Gitter chat|```{{>badges/gitter}}```|[![Join the chat at https://gitter.im/adamrenklint/redok](https://img.shields.io/badge/GITTER-join_chat-blue.svg?style=flat-square)](https://gitter.im/adamrenklint/redok)|
+|Gitter chat|```{{>badges/gitter}};```|[![Join the chat at https://gitter.im/adamrenklint/redok](https://img.shields.io/badge/GITTER-join_chat-blue.svg?style=flat-square)](https://gitter.im/adamrenklint/redok)|
 |npm version|```{{>badges/npm-version}}```|[![npm version](https://img.shields.io/npm/v/redok.svg?style=flat-square)](https://www.npmjs.com/package/redok) |
 |npm downloads|```{{>badges/npm-downloads}}```|[![npm monthly downloads](https://img.shields.io/npm/dm/redok.svg?style=flat-square)](https://www.npmjs.com/package/redok)|
 |npm dependencies|```{{>badges/npm-dependencies}}```|[![npm dependencies](https://img.shields.io/david/adamrenklint/redok.svg?style=flat-square)](https://david-dm.org/adamrenklint/redok)|
