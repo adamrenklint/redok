@@ -13,7 +13,6 @@ Readme and documentation generator
 
 [redok](https://www.npmjs.com/package/redok) is a tool for generating README and repo documentation using Handlebars and Markdown, and aims to speed up the most common tasks.
 
-
 ## Installation
 
 ```sh
@@ -72,3 +71,6 @@ redok comes with a few built-in partials for generating badges.
 ## License
 
 [MIT](https://github.com/adamrenklint/redok/blob/master/LICENSE.md) © 2015 [Adam Renklint](http://adamrenklint.com)
+
+---
+*Generated with [redok](https://github.com/adamrenklint/redok) @ Friday June 12th, 2015 - 11:02:19 AM*
