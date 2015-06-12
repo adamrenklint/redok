@@ -73,4 +73,4 @@ redok comes with a few built-in partials for generating badges.
 [MIT](https://github.com/adamrenklint/redok/blob/master/LICENSE.md) © 2015 [Adam Renklint](http://adamrenklint.com)
 
 ---
-*Generated with [redok](https://github.com/adamrenklint/redok) @ Friday June 12th, 2015 - 11:02:19 AM*
+*Generated with [redok](https://github.com/adamrenklint/redok) @ Friday June 12th, 2015 - 11:04:19 AM*
